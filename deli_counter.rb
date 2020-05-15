@@ -2,7 +2,7 @@ def line(deli)
   
   if deli.length == 0
     puts "The line is currently empty."
-  elsif deli.length > 0
+  else
     status = "The line is currently:"
     deli.each_with_index do |name, index| 
       status << " #{index+1}. #{name}"
