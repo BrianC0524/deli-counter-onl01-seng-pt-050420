@@ -1,6 +1,6 @@
 def line(deli)
   
-  if deli.length == 0
+  if deli.empty?
     puts "The line is currently empty."
   else
     status = "The line is currently:"
