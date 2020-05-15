@@ -1,5 +1,5 @@
 
-def take_a_number(katz_deli, name)
+def take_a_number(deli, name)
   if katz_deli.length == 0
     katz_deli.unshift("#{name}")
   elsif katz_deli.length > 0
@@ -11,7 +11,7 @@ def take_a_number(katz_deli, name)
 end
 
 
-def line(katz_deli)
+def line(deli)
   
   
   
