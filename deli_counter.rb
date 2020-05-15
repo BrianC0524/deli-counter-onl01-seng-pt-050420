@@ -15,13 +15,16 @@ def line(deli)
   
 def take_a_number(deli, name)
   
-  if deli.length == 0
-    deli.unshift("#{name}")
-  elsif deli.length > 0
-    deli << name
-  end
+  deli << name
+  puts "Welcome, #{name}. You are number #{deli.length} in line."
   
-  deli.each_with_index.map {|name, pos| puts "Welcome, #{name}. You are number #{pos + 1} in line."}.reverse()
+end
+
+def now_serving(deli)
+  
+  if deli.empty?
+    
+  end
   
 end
 
