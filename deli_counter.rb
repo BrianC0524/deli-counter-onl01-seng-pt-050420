@@ -1,8 +1,8 @@
 
 def take_a_number(deli, name)
-  if katz_deli.length == 0
+  if deli.length == 0
     deli.unshift("#{name}")
-  elsif katz_deli.length > 0
+  elsif deli.length > 0
     deli << name
   end
   
